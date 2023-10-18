@@ -1,4 +1,4 @@
-package com.company.project.lesson08;
+package flat.company.project.lesson08;
 
 public class Train extends Vehicle{
     private int carCount;

@@ -1,4 +1,4 @@
-package com.company.project.lesson08;
+package flat.company.project.lesson08;
 
 // класс Bicycle наследуется от класса Vehicle
 // класс Bicycle - дочерний класс, подкласс, подтип

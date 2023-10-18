@@ -1,12 +1,14 @@
-package com.company.project.lesson08;
+package flat.company.project.lesson08;
 
 public class RepairShop {
     // в массив можно добавить тип Vehicle и все его подтипы
     private Vehicle[] vehicles;
+    private String[] colors = {"красный", "жёлтый", "оранжевый", "чёрный"};
 
     public void addToVehicles(Vehicle vehicle){
 
     }
+
 
     public void repairAll(){
         for (Vehicle vehicle : vehicles) {
@@ -24,6 +26,8 @@ public class RepairShop {
             if (vehicle instanceof Train train) {
                 train.changeClimateControl();
             }
+
         }
+
     }
 }

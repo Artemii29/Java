@@ -1,4 +1,4 @@
-package com.company.project.lesson08;
+package flat.company.project.lesson08;
 // Транспортное средство
 public class Vehicle {
     protected String number; // null
