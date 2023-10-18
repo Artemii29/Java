@@ -1,5 +1,7 @@
 package flat.company.project.lesson08;
 
+import java.util.Random;
+
 public class RepairShop {
     // в массив можно добавить тип Vehicle и все его подтипы
     private Vehicle[] vehicles;
@@ -31,6 +33,10 @@ public class RepairShop {
             // аналогично предыдущей записи
             if (vehicle instanceof Train train) {
                 train.changeClimateControl();
+            }
+            if(vehicle instanceof Car car){
+                String randomColor = colors[(int) (Math.random() * colors.length)];
+                car.updateColor(randomColor);
             }
 
         }
