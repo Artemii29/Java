@@ -8,7 +8,13 @@ public class RepairShop {
     public void addToVehicles(Vehicle vehicle){
 
     }
-
+    public void addCar(Car NewCar ){
+        Vehicle[] newVehicles = new Vehicle[vehicles.length + 1];
+        for(int i=0;i<vehicles.length;i++){
+            newVehicles[i] = vehicles[i];
+            newVehicles[newVehicles.length - 1] = NewCar;
+        }
+    }
 
     public void repairAll(){
         for (Vehicle vehicle : vehicles) {
