@@ -15,8 +15,6 @@ public class Car extends Vehicle {
     }
     @Override
     public void repair(){
-     while (levelOfWare >0){
-         levelOfWare--;
-     }
+
     }
 }

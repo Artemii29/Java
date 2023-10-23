@@ -9,7 +9,7 @@ public class Lesson08 {
         train01.incLevelOfWare(3);
         train01.repair();
         Car car01 = new Car("1",210,"Blue");
-        Scooter scooter01 = new Scooter("Городской",2,24,true);
+        Scooter scooter01 = new Scooter(27,true);
         // доступно объявление переменных через общий тип,
         // тогда доступ к методам и свойствам осуществляется согласно типу (слева)
         Vehicle vehicle = new Bicycle("1vh", 30);
