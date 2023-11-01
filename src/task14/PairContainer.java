@@ -1,14 +1,14 @@
 package task14;
 
-public class PairContainer<T> {
+public class PairContainer<T,S> {
     private T key;
-    private T value;
-    PairContainer(T key,T value){
+    private S value;
+    PairContainer(T key,S value){
         this.key =key;
         this.value = value;
     }
     public static void main(String[] args){
-        PairContainer<String> newPairContainer = new PairContainer("ss","55");
+        PairContainer<String,Integer> newPairContainer = new PairContainer("ss",55);
     }
 }
 
